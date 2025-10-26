@@ -8,15 +8,15 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Schema(name = "Result", description = "统一返回结果类")
+@Schema(description = "统一返回结果")
 public class Result {
-    @Schema(description = "状态码：1表示成功，0表示失败")
+    @Schema(description = "状态码")
     private Integer code;
     
-    @Schema(description = "提示信息")
+    @Schema(description = "消息")
     private String msg;
     
-    @Schema(description = "返回数据")
+    @Schema(description = "数据")
     private Object data;
 
     public static Result success(Object data){

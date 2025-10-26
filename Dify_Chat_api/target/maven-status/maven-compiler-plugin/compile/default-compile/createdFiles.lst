@@ -1,0 +1,10 @@
+org\example\dify_chat_api\result\Result.class
+org\example\dify_chat_api\config\WebMvcConfiguration.class
+org\example\dify_chat_api\controller\UserController.class
+org\example\dify_chat_api\mapper\UserMapper.class
+org\example\dify_chat_api\controller\ChatController.class
+org\example\dify_chat_api\service\UserService.class
+org\example\dify_chat_api\entity\User.class
+org\example\dify_chat_api\DifyChatApiApplication.class
+org\example\dify_chat_api\config\ModelConfig.class
+org\example\dify_chat_api\service\impl\UserServiceImpl.class
